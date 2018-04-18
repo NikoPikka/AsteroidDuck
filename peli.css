@@ -1,0 +1,87 @@
+#tausta{
+    background-image: url('img/space.jpg');
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+    width: 1024px;
+    height: 576px;
+}
+#menu{
+    background-image: url('img/space.jpg');
+    width: 1024px;
+    height: 576px;
+    position: absolute;
+    z-index: 10;
+}
+
+#hahmo{
+    position: absolute;
+    z-index: 1;
+}
+#vihollinen{
+    position: absolute;
+}
+#info{
+    top: 5px;
+    left: 5px;
+    font-size: 1em;
+    font-family: fantasy;
+    color: #fdfdfd;
+    text-shadow: 0 0 3px #00FF00, 0 0 5px #0000FF;
+    position: absolute;
+    z-index: 10;
+}
+
+#button{
+    background-color: black;
+    color: #fdfdfd;
+    text-shadow: 0 0 3px #00FF00, 0 0 5px #0000FF;
+    border: 1px solid;
+    padding: 15px 32px;
+    text-align: center;
+    /*text-decoration: none;*/
+    z-index: 99;
+    position: absolute;
+    top: 275px;
+    left: 437px;
+    display: inline-block;
+    font-size: 26px;
+    /*font-family: 'Days One', 'Helvetica', sans-serif;*/
+    border-radius: 10px;
+    
+}
+#extbutton{
+    background-color: black;
+    color: #fdfdfd;
+    text-shadow: 0 0 3px #00FF00, 0 0 5px #0000FF;
+    border: 1px solid;
+    padding: 15px 47px;
+    text-align: center;
+    /*text-decoration: none;*/
+    z-index: 99;
+    position: absolute;
+    top: 340px;
+    left: 437px;
+    display: inline-block;
+    font-size: 22px;
+    /*font-family: 'Days One', 'Helvetica', sans-serif;*/
+    border-radius: 10px;
+    margin-top: 10px;
+}
+#info2{
+    background-color: black;
+    color: #fdfdfd;
+    text-shadow: 0 0 3px #00FF00, 0 0 5px #0000FF;
+    border: 1px solid;
+    top: 240px;
+    left: 390px;
+    font-size: 2em;
+    font-family: fantasy;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    visibility: hidden;
+}
+#peli{
+    background-color: #D3D3D3;
+}
